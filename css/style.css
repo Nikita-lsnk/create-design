@@ -340,13 +340,17 @@ body {
   text-transform: uppercase;
   font-family: "Yeseva one", cursive;
 }
+.section-title__image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .section-title__image::before, .section-title__image::after {
   content: "";
-  display: inline-block;
-  vertical-align: text-top;
   width: 32px;
   height: 1px;
   background-color: #E3B873;
+  margin: 0px 10px;
 }
 
 .button {
